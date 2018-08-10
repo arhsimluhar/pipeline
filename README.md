@@ -4,7 +4,7 @@
 
 ML pipeline is framework to work and manage ML and DL projects.
 
-## Use Cases for the ML Pipeline  
+### Use Cases for the ML Pipeline  
 - Visualisation of the data.
 - Data wrangling. 
 - Cleaning up the data (Removing outliers, doing imputation, doing under and over-sampling).
@@ -29,7 +29,9 @@ Steps to build and run the docker container
 You can access **jupyter-notebook** running background on http://localhost:9999 on your local machine.<br> 
 You can even **ssh** to the docker container using ip assigned to it.You are now ready to work on you project and stop worrying about the setting up your development environment.
 
-Otherwise, you can directly pull the image from dockerhub repo [**rmishra01/mldl-train**](https://hub.docker.com/r/rmishra01/mldl-train/). Just execute following command on you shell.
+Otherwise, you can directly pull the image from dockerhub repo [**rmishra01/mldl-train**](https://hub.docker.com/r/rmishra01/mldl-train/). 
+
+Just execute the following command on you linux shell.
 
 `docker pull rmishra01/mldl-train`
 
