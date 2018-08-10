@@ -26,10 +26,10 @@ Steps to build and run the docker container
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`docker run -it -p 9999:9999 <image-id>` <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This should start the container and provide you with bash shell.
   
-You can access **jupyter-notebook** running background on http://localhost:9999 on your local machine. 
-Even you can **SSH** to the docker container using ip assigned to it. Now,  you are ready to start working on you project and stop worrying about the setting up your development environment.
+You can access **jupyter-notebook** running background on http://localhost:9999 on your local machine.<br> 
+You can even **ssh** to the docker container using ip assigned to it.You are now ready to work on you project and stop worrying about the setting up your development environment.
 
-Or you can directly pull the image from dockerhub repo [**rmishra01/mldl-train**](https://hub.docker.com/r/rmishra01/mldl-train/). Just execute following command on you shell.
+Otherwise, you can directly pull the image from dockerhub repo [**rmishra01/mldl-train**](https://hub.docker.com/r/rmishra01/mldl-train/). Just execute following command on you shell.
 
 `docker pull rmishra01/mldl-train`
 
